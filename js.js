@@ -9,7 +9,7 @@ function createGrid(n) {
     main.firstChild.remove()
   }
   n = Number(n);
-  const scale = 600 / n - 1;
+  const scale = 600 / n;
   for (let i = 1; i <= n ** 2; i++) {
     const div = document.createElement('div');
     div.classList.add('child');

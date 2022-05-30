@@ -4,14 +4,13 @@
   border: 1px red solid;
   height: 600px;
   width: 600px;
+  flex-shrink: 0;
 }
 
 .child {
-  border: 0.5px black solid;
+  /* border: 0.5px black solid; */
   margin: 0;
   padding: 0;
-  width: 36.5px;
-  height: 36.5px;
 }
 
 form {
@@ -19,4 +18,5 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
 }
