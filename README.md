@@ -6,3 +6,5 @@ after mouseovered. Each time same box is hover on the brightness goes down
 by 0.1. A new number of boxes per row/column can be entered in the field 
 at the top, this resets the grid in the same 600x600 area just 
 with specified number of boxes and allows for a new sketch.
+
+https://fossu.github.io/odin-sketch/
